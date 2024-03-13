@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite1]">
+  <test parallel="none" name="Regression1(failed)">
+    <classes>
+      <class name="com.hrms.testscrips.TC006_AdnMOvr">
+        <methods>
+          <include name="TC006"/>
+        </methods>
+      </class> <!-- com.hrms.testscrips.TC006_AdnMOvr -->
+      <class name="com.hrms.testscrips.TC005_SearchMtd">
+        <methods>
+          <include name="TC005"/>
+        </methods>
+      </class> <!-- com.hrms.testscrips.TC005_SearchMtd -->
+      <class name="com.hrms.testscrips.TC003_DltEmp">
+        <methods>
+          <include name="TC003"/>
+        </methods>
+      </class> <!-- com.hrms.testscrips.TC003_DltEmp -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
